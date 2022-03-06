@@ -13,7 +13,7 @@ h4:Main Objectives
 *:To make IssueJ responsive
 b:
 hl:
-i:IssueJ-H001.png
+i:IJProjectSummary.png
 
 
 

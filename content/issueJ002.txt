@@ -21,11 +21,14 @@ h4:Progress to date
 *:Initial Payment process in plae (Stripe)
 *:Two stage Owner Registration in place.
 b:
-i2:IJRoadMap001.png, IssueJD01.png
+
 i2:IJDashBoard001.png, IJTaskSearch.png
 i2:IssueJ05.png, IssueJ04.png
-i3:IssueJ02.jpg, IssueJ06.png
 i2:IJKanBan001.png, IJAttributes.png
+i2:IJProjectSummary.png
+i3:IssueJ02.jpg, IssueJ06.png
+i2:IJRoadMap001.png, IssueJD01.png
+
 b:
 h4:Next steps
 *:Finalise User sign-up journeys (2 stages)
