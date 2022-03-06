@@ -1,0 +1,7 @@
+t:MySQL
+h2:Overview
+*:MySql databases were created to in support a number of projects such as IssueJ.
+*:This involved utilising MySql Workbench.
+*:Objects created: Tables, Views and Stored Procedures.
+h2:References
+l:None
