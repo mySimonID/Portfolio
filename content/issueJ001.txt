@@ -1,18 +1,15 @@
 
 h3u:IssueJ
 p:An issue manager similar to JIRA
-t:React.js, MongoDB, Materialize, REST API, responsive design
+t:React.js, Node.js, MySql, REST API, responsive
 p:Status: InProgress
 a:101
 b:
-h4:Objectives
-*:To create a JIRA like application - IssueJ
-*:To use React.js & mongoDB to build IssueJ
-*:To develop knowledge of the use of mongoDB/cloud databases
+h4:Main Objectives
+*:To create and deploy a SAAS based Project Task/Issue manager
+*:To use React.js, Node.js & MySql to build IssueJ
+*:To develop knowledge of the use of MySQL (Views, Stored procedures) etc
 *:To develop knowledge of the use of Authentication
-*:To develop knowledge of the data concurrency in cloud databases
-*:To develop understanding on the use of materialize
-*:To document IssueJ using wireframes, ERDs and user stories 
 *:To make IssueJ responsive
 b:
 hl:
