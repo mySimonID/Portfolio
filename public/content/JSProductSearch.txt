@@ -1,0 +1,26 @@
+t:javascript, html, css 
+h2:Overview
+p:This project demonstrates searching/filtering products on a page using Javascript.
+p:There are three elements to the search/filter:
+*:Text search
+*:Option filter (products in stock)
+*:Multiple filter (filtering on one or more colours)
+br:
+
+
+i:JSProductSearch001.png
+h2:Detail
+p:The three search/filter sections work by processing the initial list of products and passing the result to the next filter.
+p:For example the text search could filter anything with 'shoe' in the title, this remaining list would them be passed onto the 'instock' filter and so on.
+p:This way, multiple search/filters can easily be created.
+p:This project consists of four main files index.html, app.js, data.js and styles.css
+*:index.html - is the main UI and effectively splits the page into two columns
+*:app.js - is where the main Javascript is held
+*:data.js - holds the initial product list.
+*:styles.css
+
+h2:References
+l:[GitHub](https://github.com/mySimonID/ProductSearch)
+l:[demo](https://mysimonid.github.io/ProductSearch/)
+
+

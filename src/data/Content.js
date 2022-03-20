@@ -2,7 +2,7 @@
 export const skills = [
   { id: '001', title: 'Front end', icon: 'code', file: '', items: ['HTML', 'CSS', 'Javascript', 'React|Redux'] },
   { id: '002', title: 'Server', icon: 'share', file: '', items: ['NodeJS', 'Express', '\u00A0', '\u00A0'] },
-  { id: '003', title: 'Database', icon: 'cloud_queue', file: '', items: ['mySQL', 'MongoDB', 'Firestore', '\u00A0'] },
+  { id: '003', title: 'Database', icon: 'cloud_queue', file: '', items: ['mySQL', 'MongoDB', '\u00A0'] },
   { id: '004', title: 'Mobile', icon: 'apps', file: '', items: ['Xamarin forms', 'React Native', '\u00A0', '\u00A0'] },
 ];
 
@@ -13,14 +13,20 @@ export const articles = [
   { id: '003', skillid:'999', title: 'Javascript: ToDo List', detail: 'ToDo List using Javascript.', file:'JavaScript001.txt' },
   { id: '004', skillid:'002', title: 'NodeJS: ToDo List', detail: 'Provides a ToDo List using a ToDoList API Server.', file:'NodeJS001.txt' },
   { id: '005', skillid:'001', title: 'CSS: Examples', detail: 'Examples of CSS', file:'CSS001.txt' },
-  { id: '006', skillid:'004', title: 'Xamarin: ToDoList client', detail: 'Example of a ToDo list developed using Xamarin.', file:'xamarin001.txt'},
-  { id: '007', skillid:'004', title: 'React Native: ToDoList client', detail: 'Example of a ToDo list developed using React Native.', file:'ReactNative001.txt'},
-  { id: '008', skillid:'004', title: 'Xamarin: tymr247', detail: 'A productivity App (Android) developed using Xamarin.', file:'xamarin002.txt'},
-  { id: '009', skillid:'001', title: 'React/Redux: Sender-Receiver', detail: 'Example of using React / Redux.', file:'ReactRedux001.txt'},
-  { id: '010', skillid:'001', title: 'Text2Doc', detail: 'React.js component to processes a txt file and creates a formatted web page.', file:'Text2Doc.txt'},
+  
+  { id: '006', skillid:'003', title: 'MySql', detail: 'MySql implementations', file:'MYSQL001.txt' },
+  { id: '007', skillid:'003', title: 'MongoDB', detail: 'MongoDBs implementations', file:'Mongo001.txt' },
+ 
+  { id: '009', skillid:'004', title: 'Xamarin: ToDoList client', detail: 'Example of a ToDo list developed using Xamarin.', file:'xamarin001.txt'},
+  { id: '010', skillid:'004', title: 'React Native: ToDoList client', detail: 'Example of a ToDo list developed using React Native.', file:'ReactNative001.txt'},
+  { id: '011', skillid:'004', title: 'Xamarin: tymr247', detail: 'A productivity App (Android) developed using Xamarin.', file:'xamarin002.txt'},
+  
+  { id: '012', skillid:'001', title: 'React/Redux: Sender-Receiver', detail: 'Example of using React / Redux.', file:'ReactRedux001.txt'},
+  { id: '013', skillid:'001', title: 'Text2Doc', detail: 'React.js component to processes a txt file and creates a formatted web page.', file:'Text2Doc.txt'},
    // eslint-disable-next-line no-script-url
-  { id: '011', skillid:'001', title: 'Javascript: Product Search/Filter', detail: 'Search/Filter on a simple Product list using Javascript', file:'JSProductSearch.txt'},
-  { id: '101', skillid:'001', title: 'IssueJ', detail: 'An issue manager similar to JIRA', file:'issueJ002.txt'},
+  { id: '014', skillid:'001', title: 'Javascript: Product Search/Filter', detail: 'Search/Filter on a simple Product list using Javascript', file:'JSProductSearch.txt'},
+  { id: '015', skillid:'001', title: 'IssueJ', detail: 'A task/issue manager', file:'issueJ002.txt'},
+  { id: '016', skillid:'001', title: 'UIKit', detail: 'A React based UIKit', file:'UIKit002.txt'},
 
 ];
 

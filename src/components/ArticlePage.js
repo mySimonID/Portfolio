@@ -25,7 +25,11 @@ class ArticlePage extends Component {
 
   render() {
 
-    // console.log(">>>" + this.state.article.file );
+    console.log(">>>" + this.state.article );
+
+    if (!this.state.article) return (<div>Article not found</div>);
+
+    console.log(">>>" + this.state.article.file );
     var fileName = this.state.article.file ? this.state.article.file : "unknown.txt"
 
     fileName = `${process.env.PUBLIC_URL}/content/${fileName}`;

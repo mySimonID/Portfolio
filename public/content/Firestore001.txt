@@ -1,0 +1,7 @@
+t:Firestore
+h2:Overview
+*:Firestore databases were created whilst learning to use Firestore
+*:This involved utilising MySql Workbench.
+*:Objects created: Tables, Views and Stored Procedures.
+h2:References
+l:None

@@ -1,28 +1,43 @@
-t:React.js, MongoDB, Materialize, REST API, responsive design
+t:React.js, Node.js, MySql, REST API, responsive
 p:Status: InProgress
-h4:Objectives
-*:To create a JIRA like application - IssueJ
-*:To use React.js & mongoDB to build IssueJ
-*:To develop knowledge of the use of mongoDB/cloud databases
+h4:Main Objectives
+*:To create and deploy a SAAS based Project Task/Issue manager
+*:To use React.js, Node.js & MySql to build IssueJ
+*:To develop knowledge of the use of MySQL (Views, Stored procedures) etc
 *:To develop knowledge of the use of Authentication
-*:To develop knowledge of the data concurrency in cloud databases
-*:To develop understanding on the use of materialize
-*:To document IssueJ using wireframes, ERDs and user stories 
 *:To make IssueJ responsive
 b:
 
 h4:Progress to date
-*:Initial wireframes for Projects/Issues completed
-*:MongoDB create and set-up for Projects/Issues
+*:Initial wireframes for Projects/Tasks/Issues created
+*:MVP substantially completed
+*:MySQL instance created and set-up for Projects/Task/Issues/Attributes/Users etc
 *:IssueJ-DatabaseServer (REST API Interface) - setup completed
-*:Project/Issues pages and basic CRUD operations created (prototype).
+*:User Authentication in place
+*:NodeMailer implemented for registration emails
+*:Project/Tasks/Issues pages and basic CRUD operations created (prototype)
+*:KanBan board and Summary reporting in place
+*:Task Search capability completed
+*:Initial Payment process in plae (Stripe)
+*:Two stage Owner Registration in place.
 b:
-i2:IssueJ001.png, IssueJ002.png
-i2:IssueJ003.png, IssueJ004.png
+
+i2:IJDashBoard001.png, IJTaskSearch.png
+i2:IssueJ05.png, IssueJ04.png
+i2:IJKanBan001.png, IJAttributes.png
+i2:IJProjectSummary.png
+i3:IssueJ02.jpg, IssueJ06.png
+i2:IJRoadMap001.png, IssueJD01.png
+
 b:
 h4:Next steps
-*:Design in Team and user journeys
-*:Implement Authentication
-*:
+*:Finalise User sign-up journeys (2 stages)
+*:Implement Role based Authorisation
+*:Finalise subscription process
+*:Deploy IssueJ to a cloud based platform
+*:Testing
+*:Deploy to live environments for production purposes
+*:Use SEO etc. for marketing purposes
+*:Plan phase #2, using IssueJ....naturally.
 
 

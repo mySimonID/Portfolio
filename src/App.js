@@ -20,14 +20,24 @@ function App() {
       {/* ABOUT ME */}
       <div className="aboutme shadow">
         <h1>About Me</h1>
-        <p>Just starting over again in development.</p>
+        <p>I am a Technical Project Manager who has delivered a number of development and business projects.</p>
+        <p>My focus is now on software development where I am building my experience with a range of technologies.</p>
       </div>
 
 
       {/* CURRENT PROJECTS */}
+
       <section>
         <div className="aboutme shadow">
-          <h1>Active Projects</h1>
+          <h1>Featured Project</h1>
+          <CurrentProjectsPage filename={`${process.env.PUBLIC_URL}/content/UIKit001.txt`} />
+
+        </div>
+      </section>
+
+      <section>
+        <div className="aboutme shadow">
+          <h1>Main Project</h1>
           <CurrentProjectsPage filename={`${process.env.PUBLIC_URL}/content/issueJ001.txt`} />
 
         </div>
@@ -40,7 +50,7 @@ function App() {
           <div className="feature-container">
             <div className="feature-title">
 
-              <h1>Example Projects</h1>
+              <h1>Example Work</h1>
             </div>
 
             <div className="row">
@@ -72,13 +82,13 @@ function App() {
         <div className="skills-section">
           <p><b>Skills:</b> Project Management, Business Analysis, Software Development, Testing/UAT, Innovation</p>
           <p><b>Software:</b> Microsoft Office, Microsoft Project, JIRA/Confluence, Visual Studio/Code</p>
-          <p><b>Development:</b> Excel VBA, MS Project VBA, SQL, HTML, CSS, Javascript, React, Xamarin, C#, RPA</p>
+          <p><b>Development:</b> Excel VBA, MS Project VBA, SQL, HTML, CSS, Javascript, React.js, Node.js, Xamarin, C#, RPA</p>
         </div>
         <br />
         <div className="skills-section">
           <ul>
             {
-              education.map(exp => { return (<li><EducationCard key={exp.id} exp={exp} /></li>) })
+              education.map((exp,index) => { return (<li key={index}><EducationCard key={exp.id} exp={exp} /></li>) })
             }
           </ul>
         </div>
